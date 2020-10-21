@@ -1,0 +1,13 @@
+HTTP/2 302 
+date: Sun, 01 Mar 2020 04:08:15 GMT
+content-length: 0
+server: nginx
+cache-control: no-cache, no-store, must-revalidate, private
+expires: Fri, 1 Jan 2010 00:00:00 GMT
+location: /contests/abc155/submissions/me
+pragma: no-cache
+set-cookie: REVEL_FLASH=; Path=/; HttpOnly
+set-cookie: REVEL_SESSION=d94b603e0ce36eb5c9034dfeb41f2303e46feb97-%00UserName%3A%E3%81%8F%E3%81%A1%E3%81%B0%E3%82%86%E3%81%A3%E3%81%A1%00%00Rating%3A298%00%00_TS%3A1598587695%00%00a%3Afalse%00%00w%3Afalse%00%00SessionKey%3A3c8b8df6a48924a32fdc107756ecf1b8a15ecdcf18cfab5b1814f3f225c4e367a0b40b4ba1659f-b7b054161f07f4c9a3737b5b19fe159a132122c14ec6d8473f146398dfd0804e%00%00csrf_token%3ACaaLykNSiUH161rTlEI8vD7lEIqmOJ9XuvlFWCuwO5s%3D%00%00UserScreenName%3Ayuichin925%00; Path=/; Expires=Fri, 28 Aug 2020 04:08:15 GMT; Max-Age=15552000; HttpOnly
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+

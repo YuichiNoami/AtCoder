@@ -1,0 +1,622 @@
+phpinfo()
+PHP Version => 7.4.9
+
+System => Windows NT DESKTOP-2G2TB3U 10.0 build 18363 (Windows 10) AMD64
+Build Date => Aug  4 2020 11:45:36
+Compiler => Visual C++ 2017
+Architecture => x64
+Configure Command => cscript /nologo /e:jscript configure.js  "--enable-snapshot-build" "--enable-debug-pack" "--with-pdo-oci=c:\php-snap-build\deps_aux\oracle\x64\instantclient_12_1\sdk,shared" "--with-oci8-12c=c:\php-snap-build\deps_aux\oracle\x64\instantclient_12_1\sdk,shared" "--enable-object-out-dir=../obj/" "--enable-com-dotnet=shared" "--without-analyzer" "--with-pgo"
+Server API => Command Line Interface
+Virtual Directory Support => enabled
+Configuration File (php.ini) Path => C:\Windows
+Loaded Configuration File => C:\Program Files\php\php.ini
+Scan this dir for additional .ini files => (none)
+Additional .ini files parsed => (none)
+PHP API => 20190902
+PHP Extension => 20190902
+Zend Extension => 320190902
+Zend Extension Build => API320190902,TS,VC15
+PHP Extension Build => API20190902,TS,VC15
+Debug Build => no
+Thread Safety => enabled
+Thread API => Windows Threads
+Zend Signal Handling => disabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => disabled
+IPv6 Support => enabled
+DTrace Support => disabled
+
+Registered PHP Streams => php, file, glob, data, http, ftp, zip, compress.zlib, phar
+Registered Stream Socket Transports => tcp, udp
+Registered Stream Filters => convert.iconv.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, zlib.*
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Xdebug v2.9.6, Copyright (c) 2002-2020, by Derick Rethans
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+bcmath
+
+BCMath support => enabled
+
+Directive => Local Value => Master Value
+bcmath.scale => 0 => 0
+
+calendar
+
+Calendar support => enabled
+
+Core
+
+PHP Version => 7.4.9
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => STDOUT => STDOUT
+display_startup_errors => On => On
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => Off => Off
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_prepend_string => no value => no value
+error_reporting => 32767 => 32767
+expose_php => On => On
+extension_dir => C:\php\ext => C:\php\ext
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .;C:\php\pear => .;C:\php\pear
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => On => On
+log_errors_max_len => 1024 => 1024
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+memory_limit => 128M => 128M
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => GP => GP
+sendmail_from => no value => no value
+sendmail_path => no value => no value
+serialize_precision => -1 => -1
+short_open_tag => Off => Off
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sys_temp_dir => no value => no value
+syslog.facility => LOG_USER => LOG_USER
+syslog.filter => no-ctrl => no-ctrl
+syslog.ident => php => php
+track_errors => Off => Off
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => GPCS => GPCS
+windows.show_crt_warning => Off => Off
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => 1 => 1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.exception_ignore_args => Off => Off
+zend.multibyte => Off => Off
+zend.script_encoding => no value => no value
+
+ctype
+
+ctype functions => enabled
+
+date
+
+date/time support => enabled
+timelib version => 2018.03
+"Olson" Timezone Database Version => 2020.1
+Timezone Database => internal
+Default timezone => UTC
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.583333 => 90.583333
+date.sunset_zenith => 90.583333 => 90.583333
+date.timezone => no value => no value
+
+dom
+
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.9.10
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled
+
+filter
+
+Input Validation and Filtering => enabled
+
+Directive => Local Value => Master Value
+filter.default => unsafe_raw => unsafe_raw
+filter.default_flags => no value => no value
+
+hash
+
+hash support => enabled
+Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+MHASH support => Enabled
+MHASH API Version => Emulated Support
+
+iconv
+
+iconv support => enabled
+iconv implementation => "libiconv"
+iconv library version => 1.16
+
+Directive => Local Value => Master Value
+iconv.input_encoding => no value => no value
+iconv.internal_encoding => no value => no value
+iconv.output_encoding => no value => no value
+
+json
+
+json support => enabled
+
+libxml
+
+libXML support => active
+libXML Compiled Version => 2.9.10
+libXML Loaded Version => 20910
+libXML streams => enabled
+
+mysqlnd
+
+mysqlnd => enabled
+Version => mysqlnd 7.4.9
+Compression => supported
+core SSL => supported
+extended SSL => supported
+Command buffer size => 4096
+Read buffer size => 32768
+Read timeout => 86400
+Collecting statistics => Yes
+Collecting memory statistics => Yes
+Tracing => n/a
+Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
+API Extensions =>  
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 10.34 2019-11-21
+PCRE Unicode Version => 12.1.0
+PCRE JIT Support => enabled
+PCRE JIT Target => x86 64bit (little endian + unaligned)
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.jit => 1 => 1
+pcre.recursion_limit => 100000 => 100000
+
+PDO
+
+PDO support => enabled
+PDO drivers =>  
+
+Phar
+
+Phar: PHP Archive support => enabled
+Phar API version => 1.1.1
+Phar-based phar archives => enabled
+Tar-based phar archives => enabled
+ZIP-based phar archives => enabled
+gzip compression => enabled
+bzip2 compression => disabled (install ext/bz2)
+OpenSSL support => disabled (install ext/openssl)
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive => Local Value => Master Value
+phar.cache_list => no value => no value
+phar.readonly => On => On
+phar.require_hash => On => On
+
+readline
+
+Readline Support => enabled
+Readline library => WinEditLine
+
+Directive => Local Value => Master Value
+cli.pager => no value => no value
+cli.prompt => \b \>  => \b \> 
+
+Reflection
+
+Reflection => enabled
+
+session
+
+Session Support => enabled
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary 
+
+Directive => Local Value => Master Value
+session.auto_start => Off => Off
+session.cache_expire => 180 => 180
+session.cache_limiter => nocache => nocache
+session.cookie_domain => no value => no value
+session.cookie_httponly => no value => no value
+session.cookie_lifetime => 0 => 0
+session.cookie_path => / => /
+session.cookie_samesite => no value => no value
+session.cookie_secure => 0 => 0
+session.gc_divisor => 1000 => 1000
+session.gc_maxlifetime => 1440 => 1440
+session.gc_probability => 1 => 1
+session.lazy_write => On => On
+session.name => PHPSESSID => PHPSESSID
+session.referer_check => no value => no value
+session.save_handler => files => files
+session.save_path => no value => no value
+session.serialize_handler => php => php
+session.sid_bits_per_character => 5 => 5
+session.sid_length => 26 => 26
+session.upload_progress.cleanup => On => On
+session.upload_progress.enabled => On => On
+session.upload_progress.freq => 1% => 1%
+session.upload_progress.min_freq => 1 => 1
+session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix => upload_progress_ => upload_progress_
+session.use_cookies => 1 => 1
+session.use_only_cookies => 1 => 1
+session.use_strict_mode => 0 => 0
+session.use_trans_sid => 0 => 0
+
+SimpleXML
+
+SimpleXML support => enabled
+Schema support => enabled
+
+SPL
+
+SPL support => enabled
+Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+standard
+
+Dynamic Library Support => enabled
+Internal Sendmail Support for Windows => enabled
+
+Directive => Local Value => Master Value
+assert.active => 1 => 1
+assert.bail => 0 => 0
+assert.callback => no value => no value
+assert.exception => 0 => 0
+assert.quiet_eval => 0 => 0
+assert.warning => 1 => 1
+auto_detect_line_endings => 0 => 0
+default_socket_timeout => 60 => 60
+from => no value => no value
+session.trans_sid_hosts => no value => no value
+session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+unserialize_max_depth => 4096 => 4096
+url_rewriter.hosts => no value => no value
+url_rewriter.tags => form= => form=
+user_agent => no value => no value
+
+tokenizer
+
+Tokenizer Support => enabled
+
+xdebug
+
+xdebug support => enabled
+Version => 2.9.6
+Support Xdebug on Patreon, GitHub, or as a business: https://xdebug.org/support
+
+Debugger => enabled
+IDE Key => avoca
+
+Directive => Local Value => Master Value
+xdebug.auto_trace => Off => Off
+xdebug.cli_color => 0 => 0
+xdebug.collect_assignments => Off => Off
+xdebug.collect_includes => On => On
+xdebug.collect_params => 0 => 0
+xdebug.collect_return => Off => Off
+xdebug.collect_vars => Off => Off
+xdebug.coverage_enable => On => On
+xdebug.default_enable => On => On
+xdebug.dump.COOKIE => no value => no value
+xdebug.dump.ENV => no value => no value
+xdebug.dump.FILES => no value => no value
+xdebug.dump.GET => no value => no value
+xdebug.dump.POST => no value => no value
+xdebug.dump.REQUEST => no value => no value
+xdebug.dump.SERVER => no value => no value
+xdebug.dump.SESSION => no value => no value
+xdebug.dump_globals => On => On
+xdebug.dump_once => On => On
+xdebug.dump_undefined => Off => Off
+xdebug.file_link_format => no value => no value
+xdebug.filename_format => no value => no value
+xdebug.force_display_errors => Off => Off
+xdebug.force_error_reporting => 0 => 0
+xdebug.gc_stats_enable => Off => Off
+xdebug.gc_stats_output_dir => C:\Windows\Temp => C:\Windows\Temp
+xdebug.gc_stats_output_name => gcstats.%p => gcstats.%p
+xdebug.halt_level => 0 => 0
+xdebug.idekey => no value => no value
+xdebug.max_nesting_level => 256 => 256
+xdebug.max_stack_frames => -1 => -1
+xdebug.overload_var_dump => 2 => 2
+xdebug.profiler_append => Off => Off
+xdebug.profiler_enable => Off => Off
+xdebug.profiler_enable_trigger => Off => Off
+xdebug.profiler_enable_trigger_value => no value => no value
+xdebug.profiler_output_dir => C:\Windows\Temp => C:\Windows\Temp
+xdebug.profiler_output_name => cachegrind.out.%p => cachegrind.out.%p
+xdebug.remote_addr_header => no value => no value
+xdebug.remote_autostart => On => On
+xdebug.remote_connect_back => Off => Off
+xdebug.remote_cookie_expire_time => 3600 => 3600
+xdebug.remote_enable => On => On
+xdebug.remote_host => localhost => localhost
+xdebug.remote_log => no value => no value
+xdebug.remote_log_level => 7 => 7
+xdebug.remote_mode => req => req
+xdebug.remote_port => 9000 => 9000
+xdebug.remote_timeout => 200 => 200
+xdebug.scream => Off => Off
+xdebug.show_error_trace => Off => Off
+xdebug.show_exception_trace => Off => Off
+xdebug.show_local_vars => Off => Off
+xdebug.show_mem_delta => Off => Off
+xdebug.trace_enable_trigger => Off => Off
+xdebug.trace_enable_trigger_value => no value => no value
+xdebug.trace_format => 0 => 0
+xdebug.trace_options => 0 => 0
+xdebug.trace_output_dir => C:\Windows\Temp => C:\Windows\Temp
+xdebug.trace_output_name => trace.%c => trace.%c
+xdebug.var_display_max_children => 128 => 128
+xdebug.var_display_max_data => 512 => 512
+xdebug.var_display_max_depth => 3 => 3
+
+xml
+
+XML Support => active
+XML Namespace Support => active
+libxml2 Version => 2.9.10
+
+xmlreader
+
+XMLReader => enabled
+
+xmlwriter
+
+XMLWriter => enabled
+
+zip
+
+Zip => enabled
+Zip version => 1.15.6
+Libzip headers version => 1.5.2
+Libzip library version => 1.5.2
+
+zlib
+
+ZLib Support => enabled
+Stream Wrapper => compress.zlib://
+Stream Filter => zlib.inflate, zlib.deflate
+Compiled Version => 1.2.11
+Linked Version => 1.2.11
+
+Directive => Local Value => Master Value
+zlib.output_compression => Off => Off
+zlib.output_compression_level => -1 => -1
+zlib.output_handler => no value => no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable => Value
+ALLUSERSPROFILE => C:\ProgramData
+APPDATA => C:\Users\avoca\AppData\Roaming
+COLORTERM => truecolor
+COMMONPROGRAMFILES => C:\Program Files\Common Files
+COMPUTERNAME => DESKTOP-2G2TB3U
+COMSPEC => C:\Windows\system32\cmd.exe
+ChocolateyInstall => C:\ProgramData\chocolatey
+ChocolateyLastPathUpdate => 132394918000486256
+CommonProgramFiles(x86) => C:\Program Files (x86)\Common Files
+CommonProgramW6432 => C:\Program Files\Common Files
+DriverData => C:\Windows\System32\Drivers\DriverData
+EXEPATH => C:\Program Files\Git\bin
+GIT_ASKPASS => c:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+GOPATH => C:\Users\avoca\go
+HOME => C:\Users\avoca
+HOMEDRIVE => C:
+HOMEPATH => \Users\avoca
+LANG => ja_JP.UTF-8
+LOCALAPPDATA => C:\Users\avoca\AppData\Local
+LOGONSERVER => \\DESKTOP-2G2TB3U
+MSYSTEM => MINGW64
+NUMBER_OF_PROCESSORS => 6
+ORIGINAL_XDG_CURRENT_DESKTOP => undefined
+OS => Windows_NT
+OneDrive => C:\Users\avoca\OneDrive
+OneDriveConsumer => C:\Users\avoca\OneDrive
+PATH => C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\avoca\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Go\bin;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaNFCLibrary;C:\PROGRA~1\JPKI;C:\Users\avoca\AppData\Local\Microsoft\WindowsApps;C:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\php;C:\Users\avoca\go\bin;C:\Users\avoca\go\bin
+PATHEXT => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PLINK_PROTOCOL => ssh
+PROCESSOR_ARCHITECTURE => AMD64
+PROCESSOR_IDENTIFIER => Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+PROCESSOR_LEVEL => 6
+PROCESSOR_REVISION => 9e0d
+PROGRAMFILES => C:\Program Files
+PS1 => \[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+PSModulePath => C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC => C:\Users\Public
+PWD => C:/Users/avoca/OneDrive/AtCoder
+ProgramData => C:\ProgramData
+ProgramFiles(x86) => C:\Program Files (x86)
+ProgramW6432 => C:\Program Files
+SESSIONNAME => Console
+SHLVL => 1
+SYSTEMDRIVE => C:
+SYSTEMROOT => C:\Windows
+TEMP => C:\Users\avoca\AppData\Local\Temp
+TERM => xterm-256color
+TERM_PROGRAM => vscode
+TERM_PROGRAM_VERSION => 1.48.0
+TMP => C:\Users\avoca\AppData\Local\Temp
+USERDOMAIN => DESKTOP-2G2TB3U
+USERDOMAIN_ROAMINGPROFILE => DESKTOP-2G2TB3U
+USERNAME => avoca
+USERPROFILE => C:\Users\avoca
+VSCODE_GIT_ASKPASS_MAIN => c:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+VSCODE_GIT_ASKPASS_NODE => C:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\Code.exe
+VSCODE_GIT_IPC_HANDLE => \\.\pipe\vscode-git-b61b86242f-sock
+WINDIR => C:\Windows
+_ => C:/Program Files/php/php
+__COMPAT_LAYER => DetectorsMessageBoxErrors
+
+PHP Variables
+
+Variable => Value
+$_SERVER['ALLUSERSPROFILE'] => C:\ProgramData
+$_SERVER['APPDATA'] => C:\Users\avoca\AppData\Roaming
+$_SERVER['COLORTERM'] => truecolor
+$_SERVER['COMMONPROGRAMFILES'] => C:\Program Files\Common Files
+$_SERVER['COMPUTERNAME'] => DESKTOP-2G2TB3U
+$_SERVER['COMSPEC'] => C:\Windows\system32\cmd.exe
+$_SERVER['ChocolateyInstall'] => C:\ProgramData\chocolatey
+$_SERVER['ChocolateyLastPathUpdate'] => 132394918000486256
+$_SERVER['CommonProgramFiles(x86)'] => C:\Program Files (x86)\Common Files
+$_SERVER['CommonProgramW6432'] => C:\Program Files\Common Files
+$_SERVER['DriverData'] => C:\Windows\System32\Drivers\DriverData
+$_SERVER['EXEPATH'] => C:\Program Files\Git\bin
+$_SERVER['GIT_ASKPASS'] => c:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass.sh
+$_SERVER['GOPATH'] => C:\Users\avoca\go
+$_SERVER['HOME'] => C:\Users\avoca
+$_SERVER['HOMEDRIVE'] => C:
+$_SERVER['HOMEPATH'] => \Users\avoca
+$_SERVER['LANG'] => ja_JP.UTF-8
+$_SERVER['LOCALAPPDATA'] => C:\Users\avoca\AppData\Local
+$_SERVER['LOGONSERVER'] => \\DESKTOP-2G2TB3U
+$_SERVER['MSYSTEM'] => MINGW64
+$_SERVER['NUMBER_OF_PROCESSORS'] => 6
+$_SERVER['ORIGINAL_XDG_CURRENT_DESKTOP'] => undefined
+$_SERVER['OS'] => Windows_NT
+$_SERVER['OneDrive'] => C:\Users\avoca\OneDrive
+$_SERVER['OneDriveConsumer'] => C:\Users\avoca\OneDrive
+$_SERVER['PATH'] => C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\avoca\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Go\bin;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaNFCLibrary;C:\PROGRA~1\JPKI;C:\Users\avoca\AppData\Local\Microsoft\WindowsApps;C:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\php;C:\Users\avoca\go\bin;C:\Users\avoca\go\bin
+$_SERVER['PATHEXT'] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+$_SERVER['PLINK_PROTOCOL'] => ssh
+$_SERVER['PROCESSOR_ARCHITECTURE'] => AMD64
+$_SERVER['PROCESSOR_IDENTIFIER'] => Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+$_SERVER['PROCESSOR_LEVEL'] => 6
+$_SERVER['PROCESSOR_REVISION'] => 9e0d
+$_SERVER['PROGRAMFILES'] => C:\Program Files
+$_SERVER['PS1'] => \[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+$_SERVER['PSModulePath'] => C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+$_SERVER['PUBLIC'] => C:\Users\Public
+$_SERVER['PWD'] => C:/Users/avoca/OneDrive/AtCoder
+$_SERVER['ProgramData'] => C:\ProgramData
+$_SERVER['ProgramFiles(x86)'] => C:\Program Files (x86)
+$_SERVER['ProgramW6432'] => C:\Program Files
+$_SERVER['SESSIONNAME'] => Console
+$_SERVER['SHLVL'] => 1
+$_SERVER['SYSTEMDRIVE'] => C:
+$_SERVER['SYSTEMROOT'] => C:\Windows
+$_SERVER['TEMP'] => C:\Users\avoca\AppData\Local\Temp
+$_SERVER['TERM'] => xterm-256color
+$_SERVER['TERM_PROGRAM'] => vscode
+$_SERVER['TERM_PROGRAM_VERSION'] => 1.48.0
+$_SERVER['TMP'] => C:\Users\avoca\AppData\Local\Temp
+$_SERVER['USERDOMAIN'] => DESKTOP-2G2TB3U
+$_SERVER['USERDOMAIN_ROAMINGPROFILE'] => DESKTOP-2G2TB3U
+$_SERVER['USERNAME'] => avoca
+$_SERVER['USERPROFILE'] => C:\Users\avoca
+$_SERVER['VSCODE_GIT_ASKPASS_MAIN'] => c:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\git\dist\askpass-main.js
+$_SERVER['VSCODE_GIT_ASKPASS_NODE'] => C:\Users\avoca\AppData\Local\Programs\Microsoft VS Code\Code.exe
+$_SERVER['VSCODE_GIT_IPC_HANDLE'] => \\.\pipe\vscode-git-b61b86242f-sock
+$_SERVER['WINDIR'] => C:\Windows
+$_SERVER['_'] => C:/Program Files/php/php
+$_SERVER['__COMPAT_LAYER'] => DetectorsMessageBoxErrors
+$_SERVER['PHP_SELF'] => 
+$_SERVER['SCRIPT_NAME'] => 
+$_SERVER['SCRIPT_FILENAME'] => 
+$_SERVER['PATH_TRANSLATED'] => 
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1597546277.9784
+$_SERVER['REQUEST_TIME'] => 1597546277
+$_SERVER['argv'] => Array
+(
+)
+
+$_SERVER['argc'] => 0
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.

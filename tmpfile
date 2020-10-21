@@ -1,0 +1,3 @@
+		var csrfToken = "6Z563o5nnGqxIB9zyrGd4o8w4vweJ3sbeOk8/tkScKY="
+		<input type="hidden" name="csrf_token" value="6Z563o5nnGqxIB9zyrGd4o8w4vweJ3sbeOk8/tkScKY=" />
+			<input type="hidden" name="csrf_token" value="6Z563o5nnGqxIB9zyrGd4o8w4vweJ3sbeOk8/tkScKY=" />
